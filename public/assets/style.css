@@ -1,0 +1,46 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: 'Segoe UI', Arial, sans-serif; background: #f8fafc; color: #0f172a; }
+.navbar { 
+    background: #0284c7; 
+    padding: 16px 32px; 
+    display: flex; 
+    gap: 24px; 
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); 
+    justify-content: center; /* 👈 Thêm dòng này để đưa thanh trên cùng vào giữa */
+}.navbar a { color: #f0f9ff; text-decoration: none; font-weight: 600; font-size: 15px; }
+.navbar a:hover { color: #bae6fd; }
+.container { 
+    max-width: 1200px; /* 👈 Sửa từ 1200px thành 1400px cho kích cỡ web to hơn */
+    margin: 32px auto; 
+    padding: 0 34px; 
+}h1 { margin-top: 0; color: #0369a1; }
+.card, .toolbar { background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; margin-bottom: 24px; box-shadow: 0 1px 3px rgb(0 0 0 / 0.05); }
+.toolbar { display: flex; gap: 12px; align-items: center; }
+.header-action { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+.form-group { margin-bottom: 16px; }
+label { display: block; font-weight: 600; margin-bottom: 6px; color: #334155; }
+input, select, textarea { width: 100%; padding: 10px 14px; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 14px; }
+input:focus, select:focus, textarea:focus { outline: none; border-color: #0284c7; box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15); }
+table { width: 100%; border-collapse: collapse; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 3px rgb(0 0 0 / 0.05); border: 1px solid #e2e8f0; }
+th, td { padding: 14px 16px; border-bottom: 1px solid #e2e8f0; text-align: left; font-size: 14px; }
+th { background: #f0f9ff; font-weight: 700; color: #0369a1; }
+th a { text-decoration: none; color: #0369a1; }
+.btn, button { display: inline-block; padding: 10px 18px; border-radius: 8px; border: 0; text-decoration: none; cursor: pointer; font-weight: 600; font-size: 14px; }
+.primary { background: #0284c7; color: white; }
+.primary:hover { background: #0369a1; }
+.alert.success { background: #dcfce7; color: #15803d; border: 1px solid #bbf7d0; padding: 14px 16px; border-radius: 8px; margin-bottom: 24px; font-weight: 500; }
+.error { color: #dc2626; margin: 4px 0 0; font-size: 13px; font-weight: 500; }
+.badge { background: #e0f2fe; color: #0284c7; padding: 4px 10px; border-radius: 999px; font-size: 12px; font-weight: 700; }
+.inline { display: inline; }
+.link { background: none; padding: 0; color: #0284c7; text-decoration: none; font-weight: 600; }
+.link:hover { text-decoration: underline; }
+.danger { color: #dc2626; }
+.pagination { margin-top: 24px; display: flex; gap: 12px; align-items: center; justify-content: center; }
+.pagination a { background: white; border: 1px solid #cbd5e1; padding: 8px 16px; border-radius: 8px; text-decoration: none; color: #334155; font-weight: 600; }
+.pagination a:hover { background: #f8fafc; border-color: #94a3b8; }
+.page-info { color: #64748b; font-size: 14px; }
+.form-card { 
+    max-width: 1500px; 
+    display: grid; 
+    gap: 34px; 
+}
