@@ -1,7 +1,5 @@
 # 🏥 Dự Án Quản Lý Phòng Khám - PHP Thuần (MVC & Repository Pattern)
 
-Bài tập lớn / Lab 05 - Môn Phát triển Ứng dụng Web.
-
 ## 🚀 Tính Năng Chính
 - **Quản lý bệnh nhân (Patients Module):** Xem danh sách, tìm kiếm, thêm mới, cập nhật hồ sơ, áp dụng cơ chế xóa mềm (Soft Delete).
 - **Quản lý lịch hẹn (Appointments Module):** Đặt lịch khám, kiểm soát trùng mã khám (`appointment_code`), phân trang dữ liệu lớn.
